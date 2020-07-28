@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChubbOOOApi</name>
+    </assembly>
+    <members>
+        <member name="M:ChubbOOOApi.Services.GraphAPIService.GetOutOfOfficeInformation(ChubbOOOApi.Models.RequestParameters)">
+            <summary>
+            Get Out of office Information
+            </summary>
+            <param name="requestparams">Graph API Request Parameters</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChubbOOOApi.Services.GraphAPIService.GetAvailability(ChubbOOOApi.Models.CalenderScheduleParameters,System.Collections.Generic.IEnumerable{System.String},System.String)">
+            <summary>
+            Get User availability
+            </summary>
+            <param name="parameters">Graph API request parameters</param>
+            <param name="EmailId"> List of Email Ids</param>
+            <param name="bearerToken">Bearer token for Graph API</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChubbOOOApi.Services.IGraphAPIService.GetOutOfOfficeInformation(ChubbOOOApi.Models.RequestParameters)">
+            <summary>
+            Get Out of office Information
+            </summary>
+            <param name="requestparams">Graph API Request Parameters</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
